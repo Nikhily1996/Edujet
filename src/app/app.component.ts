@@ -12,24 +12,24 @@ export class AppComponent {
   constructor(private router: Router) {
     this.routeLinks = [
           {
-            label: 'Home',
+            label: ' Home ',
             link: './Home',
             index: 0
         },
         {
-            label: ' STUDY ABROAD',
+            label: ' STUDY ABROAD ',
             link: './StudyAbroad',
             index: 1
         }, {
-            label: 'SERVICES',
+            label: ' SERVICES ',
             link: './Services',
             index: 2
         }, {
-            label: 'CONTACT US',
+            label: ' CONTACT US ',
             link: './ContactUs',
             index: 3
         }, {
-            label: 'ABOUT US',
+            label: ' ABOUT US ',
             link: './AboutUs',
             index: 4
         }

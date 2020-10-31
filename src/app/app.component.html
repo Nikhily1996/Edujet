@@ -1,6 +1,10 @@
 <div style="padding: 5px;">
-  <nav mat-tab-nav-bar >
-      <a mat-tab-link
+  <mat-toolbar >
+    Edujet
+  </mat-toolbar>
+  <mat-toolbar  color="primary" mat-tab-nav-bar >
+    
+      <span
          *ngFor="let routeLink of routeLinks; let i = index;"
          [routerLink]="routeLink.link"
          routerLinkActive
@@ -11,8 +15,9 @@
          [class] = getActiveClass(i)
       >
           {{routeLink.label}}
-      </a>
-  </nav>
+      </span>
+    
+  </mat-toolbar>
 
   <router-outlet></router-outlet>
 </div>
